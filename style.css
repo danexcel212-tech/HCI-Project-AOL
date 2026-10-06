@@ -5,3 +5,10 @@ body {
 .logo {
     width: 100px;
 }
+
+.topbar {
+    display: flex;
+    background-color: #0D1723;
+    border: 2px solid rgb(38, 44, 69);
+    border-radius: 10px;
+}
