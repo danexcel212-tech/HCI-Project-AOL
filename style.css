@@ -31,6 +31,7 @@ header {
 .searchbar input {
     flex: 1;
     background: transparent;
+    width:93%;
     border: none;
     outline: none;
     color: #ffffff;
@@ -44,4 +45,11 @@ header {
     background-color: #0D1723;
     border: 2px solid rgb(38, 44, 69);
     border-radius: 10px;
+}
+
+.searchbar i {
+    align-self: center;
+    color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: 5px;
 }
