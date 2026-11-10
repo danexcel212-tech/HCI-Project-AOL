@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: #0A121D;
     margin: 0;
 }
@@ -44,4 +47,22 @@ header {
     background-color: #0D1723;
     border: 2px solid rgb(38, 44, 69);
     border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 2px solid rgb(38, 44, 69);
+    max-width: 30%;
+}
+
+.middlebar {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.sidebarbutton {
+    min-width: 30vh;
 }
