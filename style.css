@@ -21,6 +21,7 @@ header {
 
 
 .searchbar {
+    display: flex;
     border: none;
     align-self: center;
     height: auto;
@@ -38,7 +39,7 @@ header {
     border: none;
     outline: none;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 30px;
     padding: 4px;
 }
 
