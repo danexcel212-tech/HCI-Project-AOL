@@ -19,6 +19,25 @@ header {
     border-bottom: 2px solid rgb(38, 44, 69);
 }
 
+.sidebarlink {
+    color: azure;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.sidebarbutton:hover {
+    background-color: #FFFFFF;
+}
+
+.sidebarbutton:hover {
+    background-color: #121212;
+}
+
+.sidebarbutton:active {
+    background-color: black;
+}
+
+
 
 .searchbar {
     display: flex;
@@ -67,4 +86,6 @@ nav {
 
 .sidebarbutton {
     min-width: 30vh;
+    background-color: #0A121D;
+    border-radius: 12px;
 }
