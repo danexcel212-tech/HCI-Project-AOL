@@ -16,7 +16,7 @@ body {
 
 header {
     display: flex;
-    border-bottom: 2px solid#353c47;
+    border-bottom: 2px solid rgb(38, 44, 69);
 }
 
 
