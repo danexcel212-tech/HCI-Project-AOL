@@ -1,3 +1,7 @@
+html {
+    zoom: 0.80;
+}
+
 header {
     display: flex;
     border-bottom: 2px solid rgb(38, 44, 69);
@@ -40,5 +44,9 @@ body {
   flex: 1;
   text-align: left;
   color: white;
+}
+
+.hero-text h2 {
+    color: #2b7fff;
 }
 
