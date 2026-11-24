@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0A121D;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(38, 44, 69);
+}
+
+.sidebarlink {
+    color: rgb(228, 228, 228);
+    font-size: 32px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;  
+}
+
+.sidebarbutton:hover {
+    background-color:  #353c47;
+    
+}
+
+.sidebarbutton:hover .sidebarlink {
+    color: white
+}
+
+.sidebarbutton:active {
+    background-color: black;
+}
+
+.sidebarbutton {
+    min-width: 30vh;
+    background-color: #0A121D;
+    border-radius: 10px;
+    padding: 10;
+}
+
+
+.searchbar {
+    position: relative;
+    display: flex;
+    border: none;
+    align-self: center;
+    height: auto;
+    width: 70%;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    background-color: #353c47;
+    border-radius: 8px;
+    padding: 12px 0px;
+    margin-top: 10px;
+}
+
+.searchbar input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 4px;
+}
+
+.searchbar:focus-within:has(input:placeholder-shown) .dropdown{
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 6px;
+    padding: 8px 0;
+    background-color: #0A121D;
+    border-radius: 10px;
+    border: 2px solid #353c47;
+}
+
+.dropdown-container {
+    background-color: #0A121D;
+    margin-top: 5px;
+    margin-top: 5px;
+    padding: 10;
+}
+
+.dropdown-container:hover {
+    background-color:  #353c47;
+}
+
+.dropdown-title {
+    font-size: 14px;
+    color:rgb(228, 228, 228);
+    text-decoration:none;
+}
+
+.topbar {
+    display: flex;
+    max-height: 100px;
+    background-color: #0D1723;
+    border: 2px solid rgb(38, 44, 69);
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 2px solid rgb(38, 44, 69);
+    max-width: 30%;
+}
+
+.middlebar {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.tab:hover {
+    color:  #ffffff;
+}
