@@ -133,20 +133,50 @@ nav {
     min-width: 30vh;
 }
 
-.hero-image {
-    background-image: url(asset/banner_with_no_text.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 50%;
+.feed {
+    flex: 1;
+    padding: 20px;
 }
 
-.hero-text {
-  top: 50%;
-  left: 20%;
-  font-size: 500%;
-  transform: translate(-50%, -50%);
-  color: white;
-  position: absolute;
+.tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.tab {
+    background: transparent;
+    color: #8b95a5;
+    border: 1px solid #353c47;
+    border-radius: 6px;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+.post {
+    display: flex;
+    gap: 16px;
+    background-color: transparent;
+    border: 2px solid rgb(38, 44, 69);
+    border-radius: 10px;
+    padding: 14px;
+    max-width: 700px;
+}
+
+.postbody {
+    color: azure;
+}
+
+.postbody small {
+    color: #8b95a5;
+}
+
+.postbody h2 {
+    margin: 4px 0;
+    font-size: 18px;
+}
+
+.postbody p {
+    color: #a8b0bd;
+    font-size: 14px;
 }
