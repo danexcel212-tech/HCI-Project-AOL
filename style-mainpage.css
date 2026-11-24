@@ -23,9 +23,16 @@ header {
     border-bottom: 2px solid rgb(38, 44, 69);
 }
 
+.account-buttons {
+    display: flex;
+    gap: 5px;
+    align-self: center;
+    margin-left: 50px
+}
+
 .sidebarlink {
     color: rgb(228, 228, 228);
-    font-size: 32px;
+    font-size: 20px;
     text-decoration: none;
     align-items: center;
     justify-content: center;  
@@ -45,10 +52,10 @@ header {
 }
 
 .sidebarbutton {
-    min-width: 30vh;
+    width: 220px;
     background-color: #0A121D;
     border-radius: 10px;
-    padding: 10;
+    padding: 10px;
 }
 
 
@@ -73,7 +80,7 @@ header {
     border: none;
     outline: none;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
     padding: 4px;
 }
 
@@ -131,10 +138,6 @@ nav {
     display: flex;
     flex: 1;
     flex-direction: row;
-}
-
-.sidebarbutton {
-    min-width: 30vh;
 }
 
 .feed {
