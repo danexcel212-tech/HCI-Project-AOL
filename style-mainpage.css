@@ -202,3 +202,35 @@ nav {
     color:  #ffffff;
     background-color:  #353c47;
 }
+
+.bytagtitle {
+    color: #8b95a5;
+}
+
+.tag { 
+    display: inline-block;
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.grey {
+    background-color: grey;
+}
