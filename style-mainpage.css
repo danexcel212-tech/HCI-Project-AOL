@@ -175,7 +175,9 @@ nav {
 }
 
 .postlink {
-    text-decoration: none
+    display: block;
+    text-decoration: none;
+    max-width: 700px;
 }
 
 .postbody {
